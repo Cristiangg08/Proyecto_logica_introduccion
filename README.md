@@ -2,7 +2,8 @@
 
 Este proyecto es una aplicación web interactiva desarrollada en Python con Streamlit. Su objetivo es cruzar los datos biométricos de un usuario (peso y altura) con una base de datos real depurada para generar recomendaciones personalizadas de rutinas de ejercicio, nutrición y tips de salud basados en el Índice de Masa Corporal (IMC) y los objetivos físicos del usuario.
 
-**Enlace a la aplicación desplegada:** [\[Abrir Dashboard en Streamlit\]([](https://proyectologicaintroduccion-bcyzexo8dzs3o8uyh5qfjh.streamlit.app/))]
+**Enlace a la aplicación desplegada:** [Abrir Dashboard en Streamlit](https://proyectologicaintroduccion-bcyzexo8dzs3o8uyh5qfjh.streamlit.app)
+
 ## Contexto Académico
 * **Proyecto Integrador de Primer Semestre**
 * **Programa:** Ingeniería de Ciencia de Datos e Inteligencia Artificial
@@ -28,11 +29,17 @@ Se utilizó un dataset público extraído de Kaggle (`healthy_diet_calorie_intak
 3. **Alertas Inteligentes (Validación cruzada):** Advierte al usuario si su objetivo físico choca con las recomendaciones médicas para su IMC actual.
 4. **Exploración de Datos (EDA):** Visualizaciones interactivas usando Matplotlib sobre la distribución de IMC, consumo calórico por nivel de actividad y relación entre peso y consumo de proteína.
 
+## Tecnologías y Librerías Utilizadas
+* **Python 3**
+* **Streamlit** (Interfaz web interactiva)
+* **Pandas & NumPy** (Limpieza, estructuración y análisis estadístico)
+* **Matplotlib** (Visualización de datos)
+
 ## Instrucciones de Uso (Ejecución Local)
 Sigue estos pasos para correr la aplicación en tu propia máquina:
 
-1.**Clona este repositorio o descarga los archivos en una carpeta:**
-   
+1. Clona este repositorio o descarga los archivos en una carpeta:
+   ```bash
    git clone [https://github.com/Cristiangg08/Proyecto_logica_introduccion.git](https://github.com/Cristiangg08/Proyecto_logica_introduccion.git)
 2. **En la terminal ejecuta el comando:** 
   streamlit run App.py
